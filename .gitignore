@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (keep big raw results out of git)
+results/
+
+# Allow reports (we want figures + writeup in the repo)
+# Do NOT ignore reports/*.png or reports/*.pdf
