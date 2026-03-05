@@ -1,3 +1,6 @@
+import os, sys
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
+
 import numpy as np
 
 from lorentzian_core import lorentzian_histogram

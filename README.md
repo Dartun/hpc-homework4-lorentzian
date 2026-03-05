@@ -1,28 +1,10 @@
-rm -f README.md
-cat > README.md << 'EOF'
 # HPC Homework 4 — Lorentzian Sampling + Parallel Scaling
 
-This project generates random samples from a Lorentzian (Cauchy) distribution using inverse transform sampling and benchmarks multiple parallel Python approaches for a CPU-bound workload.
+This repo contains my solution for HPC Homework 4.
 
-## Quick start (baseline)
+## Setup
 ```bash
 python -m venv .venv
-# Git Bash on Windows:
+# Git Bash (Windows):
 source .venv/Scripts/activate
 pip install -r requirements.txt
-python src/baseline.py --n 2000000 --plot
-
-## Section 1–2 (Baseline)
-Run:
-```bash
-python src/baseline.py --n 2000000 --checks --plot
-
-
-Save.
-
----
-
-## Commit Section 1–2
-```bash
-git add README.md src/baseline.py reports/fig_hist_vs_pdf.png reports/section2_derivation.md requirements.txt .gitignore
-git commit -m "Complete Section 1-2: baseline sampling, checks, plot, derivation"
