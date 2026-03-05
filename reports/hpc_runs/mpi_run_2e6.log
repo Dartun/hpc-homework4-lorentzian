@@ -1,0 +1,6 @@
+MPI ranks = 4
+Total samples n_total = 2000000
+Bins=100, range=[-10.0, 10.0]
+Runtime: 0.049 s
+Samples/sec: 4.042e+07
+Saved: results/mpi_hist_2e6.txt
